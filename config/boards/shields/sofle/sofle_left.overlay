@@ -31,10 +31,3 @@
     status = "okay";
 };
 
-/ {
-    // This node tells ZMK to explicitly turn on the power for devices 
-    // connected to the general external power pin (usually the OLED).
-    ext_power: ext-power {
-        status = "okay";
-    };
-};
