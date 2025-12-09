@@ -30,9 +30,3 @@
 &tps43_listener {
     status = "okay";
 };
-
-&oled {
-    // Pro Micro pin 10 (which is P0.28 on the nice!nano)
-    // is wired on the Sofle to turn on VCC for the OLED.
-    pwr-gpios = <&pro_micro 10 GPIO_ACTIVE_HIGH>;
-};
