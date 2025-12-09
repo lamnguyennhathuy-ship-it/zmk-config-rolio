@@ -30,3 +30,10 @@
 &tps43_listener {
     status = "okay";
 };
+
+&oled {
+    // Alternate I2C Address
+    reg = <0x3d>; 
+    // Alternate Power Pin for Sofle
+    pwr-gpios = <&pro_micro 8 GPIO_ACTIVE_HIGH>;
+};
